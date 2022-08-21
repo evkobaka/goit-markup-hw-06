@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header class="header port-header">
+      <div class="container">
+        <nav class="header-nav">
+          <a href="/" class="header-logo"><span class="logo">Web</span>Studio</a>
+          <ul class="list">
+            <li class="header-item"><a href="./index.html" class="header-link link">Студия</a></li>
+            <li class="header-item">
+              <a href="./portfolio.html" class="header-link link header-port current">Портфолио</a>
+            </li>
+            <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="list portfolio-contacts">
+          <li>
+            <a href="mailto:info@devstudio.com" class="portfolio-contact link"
+              ><svg class="contacts-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="portfolio-contact link"
+              ><svg class="contacts-icon" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="content section">
+        <div class="container">
+          <ul class="buttons btn-list">
+            <li class="bb"><button type="button" class="btn">Все</button></li>
+            <li class="bb"><button type="button" class="btn">Веб-сайты</button></li>
+            <li class="bb"><button type="button" class="btn">Приложения</button></li>
+            <li class="bb"><button type="button" class="btn">Дизайн</button></li>
+            <li class="bb"><button type="button" class="btn">Маркетинг</button></li>
+          </ul>
+        </div>
+
+        <h1 hidden>Контент</h1>
+        <div class="container">
+          <ul class="list-cards cards">
+            <li class="card">
+              <div class="cards-top-wrap">
+                <a href="">
+                  <img
+                    class="card-image no-gap"
+                    src="./images/techno.jpg"
+                    alt="Технокряк"
+                    width="370"
+                    height="294"
+                  />
+                </a>
+                <p class="cards-top-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolore atque nostrum
+                  nulla est tempora porro culpa, quae nisi dolor ratione sapiente adipisci dolorum,
+                  maiores accusantium quam maxime officia incidunt!
+                </p>
+              </div>
+              <div class="card-description">
+                <h2 class="content-title">Технокряк</h2>
+                <p class="content-text">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="cards-top-wrap">
+                <a href="">
+                  <img
+                    class="card-image no-gap"
+                    src="./images/new-orlean.jpg"
+                    alt="Постер"
+                    width="370"
+                    height="294"
+                  />
+                </a>
+                <p class="cards-top-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolore atque nostrum
+                  nulla est tempora porro culpa, quae nisi dolor ratione sapiente adipisci dolorum,
+                  maiores accusantium quam maxime officia incidunt!
+                </p>
+              </div>
+              <div class="card-description">
+                <h2 class="content-title">Постер New Orlean vs Golden Star</h2>
+                <p class="content-text">Дизайн</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="cards-top-wrap">
+                <a href="">
+                  <img
+                    class="card-image no-gap"
+                    src="./images/seafood.jpg"
+                    alt="Ресторан Seafood"
+                    width="370"
+                    height="294"
+                  />
+                </a>
+                <p class="cards-top-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolore atque nostrum
+                  nulla est tempora porro culpa, quae nisi dolor ratione sapiente adipisci dolorum,
+                  maiores accusantium quam maxime officia incidunt!
+                </p>
+              </div>
+              <div class="card-description">
+                <h2 class="content-title">Ресторан Seafood</h2>
+                <p class="content-text">Приложение</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="cards-top-wrap">
+                <a href="">
+                  <img
+                    class="card-image no-gap"
+                    src="./images/prime.jpg"
+                    alt="Проект Prime"
+                    width="370"
+                    height="294"
+                  />
+                </a>
+                <p class="cards-top-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolore atque nostrum
+                  nulla est tempora porro culpa, quae nisi dolor ratione sapiente adipisci dolorum,
+                  maiores accusantium quam maxime officia incidunt!
+                </p>
+              </div>
+              <div class="card-description">
+                <h2 class="content-title">Проект Prime</h2>
+                <p class="content-text">Маркетинг</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="cards-top-wrap">
+                <a href="">
+                  <img
+                    class="card-image no-gap"
+                    src="./images/boxes.jpg"
+                    alt="Проект Boxes"
+                    width="370"
+                    height="294"
+                  />
+                </a>
+                <p class="cards-top-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolore atque nostrum
+                  nulla est tempora porro culpa, quae nisi dolor ratione sapiente adipisci dolorum,
+                  maiores accusantium quam maxime officia incidunt!
+                </p>
+              </div>
+              <div class="card-description">
+                <h2 class="content-title">Проект Boxes</h2>
+                <p class="content-text">Приложение</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="cards-top-wrap">
+                <a href="">
+                  <img
+                    class="card-image no-gap"
+                    src="./images/inspiration.jpg"
+                    alt="Моноблок"
+                    width="370"
+                    height="294"
+                  />
+                </a>
+                <p class="cards-top-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolore atque nostrum
+                  nulla est tempora porro culpa, quae nisi dolor ratione sapiente adipisci dolorum,
+                  maiores accusantium quam maxime officia incidunt!
+                </p>
+              </div>
+              <div class="card-description">
+                <h2 class="content-title">Inspiration has no Borders</h2>
+                <p class="content-text">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="cards-top-wrap">
+                <a href="">
+                  <img
+                    class="card-image no-gap"
+                    src="./images/limited.jpg"
+                    alt="Журнал"
+                    width="370"
+                    height="294"
+                  />
+                </a>
+                <p class="cards-top-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolore atque nostrum
+                  nulla est tempora porro culpa, quae nisi dolor ratione sapiente adipisci dolorum,
+                  maiores accusantium quam maxime officia incidunt!
+                </p>
+              </div>
+              <div class="card-description">
+                <h2 class="content-title">Издание Limited Edition</h2>
+                <p class="content-text">Дизайн</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="cards-top-wrap">
+                <a href="">
+                  <img
+                    class="card-image no-gap"
+                    src="./images/lab.jpg"
+                    alt="Лейбл"
+                    width="370"
+                    height="294"
+                  />
+                </a>
+                <p class="cards-top-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolore atque nostrum
+                  nulla est tempora porro culpa, quae nisi dolor ratione sapiente adipisci dolorum,
+                  maiores accusantium quam maxime officia incidunt!
+                </p>
+              </div>
+              <div class="card-description">
+                <h2 class="content-title">Проект LAB</h2>
+                <p class="content-text">Маркетинг</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="cards-top-wrap">
+                <a href="">
+                  <img
+                    class="card-image no-gap"
+                    src="./images/business.jpg"
+                    alt="Ноутбук"
+                    width="370"
+                    height="294"
+                  />
+                </a>
+                <p class="cards-top-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolore atque nostrum
+                  nulla est tempora porro culpa, quae nisi dolor ratione sapiente adipisci dolorum,
+                  maiores accusantium quam maxime officia incidunt!
+                </p>
+              </div>
+              <div class="card-description">
+                <h2 class="content-title">Growing Business</h2>
+                <p class="content-text">Приложение</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container port-container">
+        <div class="contact-wrap">
+          <h3 hidden>Контакты</h3>
+          <a href="/" class="footer-logo"><span class="logo">Web</span>Studio</a>
+          <address>
+            <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="footer-list">
+              <li class="footer-mail">
+                <a href="mailto:info@devstudio.com" class="footer-link link">info@devstudio.com</a>
+              </li>
+              <li><a href="tel:+380961111111" class="footer-link link">+38 096 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-soc-items">
+          <h3 class="footer-soc-title">Присоединяйтесь</h3>
+          <ul class="footer-soc list">
+            <li class="footer-soc-item">
+              <a href="" class="footer-soc-link">
+                <svg class="footer-soc-icon" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="" class="footer-soc-link">
+                <svg class="footer-soc-icon" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="" class="footer-soc-link">
+                <svg class="footer-soc-icon" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="" class="footer-soc-link">
+                <svg class="footer-soc-icon" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-mailing">
+          <h3 class="footer-soc-title">Подпишитесь на рассылку</h3>
+          <input
+            type="email"
+            class="footer-input"
+            name="send-email"
+            placeholder="E-mail"
+            id="send-email"
+          />
+        </div>
+        <button type="submit" class="footer-btn">
+          Подписаться<svg class="footer-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-send"></use>
+          </svg>
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>
